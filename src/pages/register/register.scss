@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.register {
+    height: 100vh;
+    background-color: rgb(235, 219, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .card {
+      width: 50%;
+      display: flex;
+      flex-direction: row-reverse;
+      background-color: white;
+      border-radius: 10px;
+      min-height: 600px;
+      overflow: hidden;
+  
+      .left {
+        flex: 1;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(95, 9, 76, 0.5)),
+          url("../public/social.png")
+            center;
+        background-size: cover;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        color: white;
+  
+        h1 {
+          font-size: 80px;
+          line-height: 100px;
+        }
+        
+        p {
+            font-size: larger;
+        }
+
+        span {
+          font-size: 14px;
+        }
+        
+        button {
+          width: 50%;
+          padding: 10px;
+          border: none;
+          background-color: white;
+          color: rgb(245, 189, 210);
+          font-weight: bold;
+          cursor: pointer;
+          border-radius: 5px;
+          margin-top: 80px;
+          .link {
+            text-decoration: none;
+            color:  rgb(245, 189, 210);
+          }
+        }
+      }
+      .right {
+        flex: 1;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        h1 {
+        color: rgb(134, 132, 132);
+        }
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          input {
+          border: none;
+          border-bottom: 1px solid lightgray;
+          padding: 20px 10px;
+          outline: none;
+          }
+          button {
+           
+            width: 50%;
+            padding: 10px;
+            border: none;
+            background-color:   rgb(245, 189, 210);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            .link {
+              text-decoration: none;
+              color:  rgb(255, 255, 255);
+            }
+          }
+        }
+      }
+    }
+  }
