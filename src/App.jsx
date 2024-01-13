@@ -5,7 +5,7 @@ import { Navigate, Outlet, RouterProvider, createBrowserRouter } from 'react-rou
 import { AuthContext } from './context/authContext'
 import { DarkModeContext } from './context/darkModeContext'
 import Home from './pages/home/Home'
-import LeftBar from './components/leftBar/LeftBar'
+import LeftBar from './components/leftbar/LeftBar'
 import Login from './pages/login/Login'
 import Navbar from './components/navbar/Navbar'
 import Profile from './pages/profile/Profile'
